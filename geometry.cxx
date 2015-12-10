@@ -493,8 +493,8 @@ void initialize_local_force_vector(double * local_forc_vector, int num_nodes)
 double boundary_value( int boundary_flag)
 {
  double boundary_value;
- const int lower_boundary_flag=1;
- const int upper_boundary_flag=2;
+ const int lower_boundary_flag=2;
+ const int upper_boundary_flag=1;
  const double temp_value_lower_boundary= 273.;
  const double temp_value_upper_boundary= 280.;
 
